@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Nunito+Sans:opsz,wght@6..12,200&family=Nunito:wght@200&display=swap");
+
+body {
+  background-color: antiquewhite;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: "Nunito Sans";
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 70px;
+  background-color: black;
+  color: white;
+}
+nav ul li {
+  padding: 0 12px;
+}
+.brand img {
+  width: 44px;
+  padding: 0 8px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3 rem;
+}
+.container {
+  min-height: 72vh;
+  background-color: black;
+  color: white;
+  font-family: "Mukta";
+  display: flex;
+  width: 70%;
+  margin: 23px auto ;
+  border-radius: 12px;
+  padding: 34px;
+  background-image: url('bg.jpg');
+}
+
+.bottom {
+  position: sticky;
+  height: 130px;
+  background-color: black;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction:column ;
+  
+}
+
+
+.icons{
+    margin-top:30px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width : 80vw;
+    color: blue;
+    cursor: pointer;
+   
+}
+
+.songItemContainer{
+    margin-top: 65px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    color: black;
+    margin: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+   height : 70%
+}
+
+.songItem img{
+    width: 45px;
+    margin: 0 23px ;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+    
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 4vw;
+    font-family: "Mukta";
+
+     
+}
+
+
+.songInfo img{
+   opacity: 0;
+   transition: opacity 0.5s ease-in;
+   text-align: left;
+}
